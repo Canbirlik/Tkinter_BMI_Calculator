@@ -29,15 +29,15 @@ def calculate_fnc():
             BMI = weight / ( (height / 100) ** 2)
             if BMI < 16.0:
                 BMI_Category = "Severely Underweight"
-            elif BMI >= 16.0 and BMI <= 18.4:
+            elif 16.0 <= BMI <= 18.4:
                 BMI_Category = "Underweight"
-            elif BMI > 18.4 and BMI < 24.9:
+            elif 18.4 < BMI < 24.9:
                 BMI_Category = "Normal"
-            elif BMI > 24.9 and BMI < 29.9:
+            elif 24.9 < BMI < 29.9:
                 BMI_Category = "Overweight"
-            elif BMI > 29.9 and BMI < 34.9:
+            elif 29.9 < BMI < 34.9:
                 BMI_Category = "Moderately Obese"
-            elif BMI > 34.9 and BMI < 39.9:
+            elif 34.9 < BMI < 39.9:
                 BMI_Category = "Severely Obese"
             elif BMI > 39.9:
                 BMI_Category = "Morbidly Obese"
